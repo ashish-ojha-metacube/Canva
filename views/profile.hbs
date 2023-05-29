@@ -1,0 +1,44 @@
+<h1>Microsoft Graph API</h1>
+<h3>Team members list</h3>
+
+<table style="border:1px solid black;">
+    <tbody>
+        {{#each members}}
+        <tr>
+            <td>{{this.email}}</td>
+            <td>{{this.displayName}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+<br>
+
+<h3>Teams list</h3>
+
+<table style="border:1px solid black;">
+    <tbody>
+        {{#each teams}}
+        <tr>
+           
+            <td>{{this.displayName}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+<br>
+
+<h3>channel list</h3>
+
+<table style="border:1px solid black;">
+    <tbody>
+        {{#each channels}}
+        <tr>
+           
+            <td>{{this.displayName}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+<br>
+
+<a href="/">Go back</a>
