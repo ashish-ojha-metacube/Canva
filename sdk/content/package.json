@@ -1,0 +1,10 @@
+{
+  "name": "@canva/content",
+  "version": "0.1.0",
+  "description": "The Canva content library",
+  "author": "Canva Pty Ltd.",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "build/index.js",
+  "typings": "build/index.d.ts"
+}

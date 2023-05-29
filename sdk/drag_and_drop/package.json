@@ -1,0 +1,10 @@
+{
+  "name": "@canva/dnd",
+  "version": "0.3.1",
+  "description": "The Canva Drag and Drop library",
+  "author": "Canva Pty Ltd.",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "build/index.js",
+  "typings": "build/index.d.ts"
+}

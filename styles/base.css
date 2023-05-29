@@ -1,0 +1,178 @@
+:root {
+  --grid-baseline: 8px;
+  --font-size-baseline: 62.5%;
+  --border-radius: 4px;
+  --title-micro: 1.2rem;
+  --title-small: 1.8rem;
+  --title-medium: 2rem;
+  --title-large: 2.4rem;
+  --title-line-height: 1.3;
+  --body-micro: 1rem;
+  --body-small: 1.2rem;
+  --body-medium: 1.4rem;
+  --body-large: 1.6rem;
+  --body-line-height: 1.6;
+  --none-space: 0px;
+  --xxx-small-space: 4px;
+  --xx-small-space: 8px;
+  --x-small-space: 12px;
+  --small-space: 16px;
+  --medium-space: 24px;
+  --large-space: 32px;
+  --x-large-space: 48px;
+  --xx-large-space: 64px;
+  --xxx-large-space: 96px;
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --color-primary: hsl(264.12, 100%, 61.96%);
+  --color-primary-hover: hsl(258.87, 83.78%, 70.98%);
+  --color-primary-active: hsl(270, 100%, 45.1%);
+  --color-primary-fore: hsl(0, 0%, 100%);
+  --color-primary-disabled: hsla(0, 0%, 100%, 0.07);
+  --color-primary-fore-disabled: hsla(0, 0%, 100%, 0.4);
+  --color-secondary: hsla(0, 0%, 100%, 0.07);
+  --color-secondary-hover: hsla(0, 0%, 100%, 0.15);
+  --color-secondary-active: hsla(0, 0%, 100%, 0.2);
+  --color-secondary-fore: hsl(0, 0%, 100%);
+  --color-secondary-disabled: hsla(0, 0%, 100%, 0.07);
+  --color-secondary-fore-disabled: hsla(0, 0%, 100%, 0.4);
+  --color-tertiary: hsla(0, 0%, 100%, 0);
+  --color-tertiary-hover: hsla(0, 0%, 100%, 0.07);
+  --color-tertiary-active: hsla(0, 0%, 100%, 0.15);
+  --color-tertiary-fore: hsl(0, 0%, 100%);
+  --color-tertiary-disabled: hsla(0, 0%, 100%, 0);
+  --color-tertiary-fore-disabled: hsla(0, 0%, 100%, 0.4);
+  --color-positive: hsl(124.22, 100%, 25.1%);
+  --color-positive-low: hsl(123.38, 100%, 13.92%);
+  --color-positive-fore-low: hsl(0, 0%, 100%);
+  --color-positive-disabled: hsla(0, 0%, 100%, 0.07);
+  --color-positive-fore-disabled: hsla(0, 0%, 100%, 0.2);
+  --color-info: hsl(221.14, 100%, 55.1%);
+  --color-info-low: hsl(218.82, 100%, 30%);
+  --color-info-fore-low: hsl(0, 0%, 100%);
+  --color-info-disabled: hsla(0, 0%, 100%, 0.07);
+  --color-info-fore-disabled: hsla(0, 0%, 100%, 0.4);
+  --color-warn: hsl(31.21, 100%, 33.92%);
+  --color-warn-low: hsl(29.07, 100%, 19.02%);
+  --color-warn-fore-low: hsl(0, 0%, 100%);
+  --color-warn-disabled: hsla(0, 0%, 100%, 0.07);
+  --color-warn-fore-disabled: hsla(0, 0%, 100%, 0.4);
+  --color-critical: hsl(349.75, 83.26%, 46.86%);
+  --color-critical-low: hsl(351.09, 100%, 25.1%);
+  --color-critical-fore-low: hsl(0, 0%, 100%);
+  --color-critical-disabled: hsla(0, 0%, 100%, 0.07);
+  --color-critical-fore-disabled: hsla(0, 0%, 100%, 0.4);
+  --color-background: hsla(0, 0%, 100%, 0.07);
+  --color-background-hover: hsla(0, 0%, 100%, 0.2);
+  --color-background-disabled: hsla(206.67, 25.71%, 6.86%, 0.07);
+  --color-background-white: hsl(0, 0%, 100%);
+  --color-background-white-hover: hsla(0, 0%, 100%, 0.9);
+  --color-typography: hsla(0, 0%, 100%, 0.9);
+  --color-typography-low: hsla(0, 0%, 100%, 0.7);
+  --color-typography-placeholder: hsla(0, 0%, 100%, 0.5);
+  --color-typography-positive: hsl(120.97, 28.97%, 58.04%);
+  --color-typography-primary: hsla(0, 0%, 100%, 0.9);
+  --color-typography-critical: hsl(354.78, 100%, 63.92%);
+  --color-typography-warn: hsl(37.83, 100%, 45.1%);
+  --color-typography-info: hsl(213.04, 100%, 69.02%);
+  --color-typography-black: hsl(206.67, 25.71%, 6.86%);
+  --color-typography-black-low: hsla(206.67, 25.71%, 6.86%, 0.7);
+  --color-typography-black-placeholder: hsla(206.67, 25.71%, 6.86%, 0.6);
+  --color-typography-black-positive: hsl(124.22, 100%, 25.1%);
+  --color-typography-black-critical: hsl(349.75, 83.26%, 46.86%);
+  --color-typography-black-warn: hsl(31.21, 100%, 33.92%);
+  --color-typography-black-info: hsl(221.14, 100%, 55.1%);
+  --color-border: hsla(0, 0%, 100%, 0.2);
+  --color-border-low: hsla(0, 0%, 100%, 0.1);
+  --color-border-hover: hsla(0, 0%, 100%, 0.4);
+  --color-border-active: hsl(258.87, 83.78%, 70.98%);
+  --color-border-selected: hsl(258.87, 83.78%, 70.98%);
+  --color-border-critical: hsl(354.78, 100%, 63.92%);
+  --color-border-disabled: hsla(0, 0%, 100%, 0.07);
+  --color-scrollbar-thumb: hsla(0, 0%, 100%, 0.5);
+  --placeholder-default-opacity: 0.15;
+  --placeholder-pulse-opacity: 0.10;
+}
+
+@font-face {
+  font-family: "Canva Sans";
+  src: url("../assets/fonts/canva-sans-latin.woff2") format("woff2"),
+    url("../assets/fonts/canva-sans-latin.woff") format("woff");
+  font-style: normal;
+  font-display: block;
+  font-weight: var(--font-weight-regular) var(--font-weight-bold);
+  unicode-range: U+0020-007e, U+00a0, U+00a2-00a9, U+00ac-00ae, U+00b0,
+    U+00b4-00b7, U+00d7, U+00f7, U+0300-0304, U+0306-0308, U+030a-030c, U+0312,
+    U+0326-0328, U+2013-2014, U+2018-201a, U+201c-201e, U+2020-2022, U+2026,
+    U+2117, U+2120, U+2122, U+2190-2199, U+fb01-fb02, U+feff, U+fffc-fffd;
+}
+
+@font-face {
+  font-family: "Canva Sans";
+  font-style: normal;
+  font-display: block;
+  font-weight: var(--font-weight-regular) var(--font-weight-bold);
+  src: url("../assets/fonts/canva-sans-latin-ext.woff2") format("woff2"),
+    url("../assets/fonts/canva-sans-latin-ext.woff") format("woff");
+  unicode-range: U+00a1, U+00aa-00ab, U+00af, U+00b8, U+00ba-00bb, U+00bf,
+    U+00c0-00d6, U+00d8-00f6, U+00f8-0148, U+014a-017e, U+0192, U+01b5-01b6,
+    U+01fc-01fd, U+0218-021b, U+0237, U+02c6-02c7, U+02c9, U+02d8-02dd,
+    U+1e80-1e85, U+1e9e, U+1ef2-1ef3, U+2030, U+2039-203a, U+20ac, U+20ba,
+    U+2113;
+}
+
+html,
+body {
+  background-color: transparent;
+  color: var(--color-typography);
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  font-family: "Canva Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: var(--font-size-baseline);
+}
+
+body {
+  font-size: var(--body-medium);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
